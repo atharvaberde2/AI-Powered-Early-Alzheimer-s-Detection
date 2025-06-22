@@ -7,9 +7,9 @@ from datetime import datetime
 import threading
 import librosa
 import numpy as np
-API_KEY = 'AIzaSyCNDhe0C85XQ9znQGVXN7KwflVkQjNTdmU'
+API_KEY = '*******'
 
-dg_client = DeepgramClient('c74782c7b1b9d342303804006520ac45d5975e9b')
+dg_client = DeepgramClient('******')
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
